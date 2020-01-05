@@ -1,4 +1,14 @@
-{% extends 'base.html' %}
-{% block content %}
-<h1>Home</h1>
+{% extends 'base.html' %} {% block content %}
+<br>
+<h1 id="home-title"><b>Welcome to</b><img id="logo-large" src="../static/images/novastream.png"></h1>
+<br><br><br><br>
+<h4>NovaStream is a platform for community driven journalism on a global level. We provide all users an equal right to share ideas and expand humanity's common knowledgebase.</h4>
+
+<script>
+    let container = document.querySelector("body");
+    container.style.backgroundImage = "url('https://4.bp.blogspot.com/-7AGxh8ltBKw/Uh94K0REYDI/AAAAAAAAGBM/n9fvhtNPyMA/s1600/Background-Journalism2.jpg')";
+    container.style.backgroundPosition = "center";
+    container.style.backgroundAttachment = "fixed";
+    container.style.backgroundSize = "cover";
+</script>
 {% endblock %}
