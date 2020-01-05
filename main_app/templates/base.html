@@ -18,7 +18,7 @@
             <div class="nav-wrapper">
                 <ul>
                     <a href="/" class="left brand-logo">
-                        <img id="logo" src="../static/images/novastream.png"> </ul>
+                        <img id="logo" src="{% static 'images/novastream.png'%}" alt="NovaStream Logo"> </ul>
                 <ul class="right">
                     {% if user.is_authenticated %}
                     <li><a href="{% url 'post_list' %}">Posts</a></li>
