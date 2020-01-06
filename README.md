@@ -11,11 +11,14 @@ To allow users to create posts and share them with the world. We also made sourc
 
 ## ERD
 
-ERD image comming up...
+<img src="./static/images/ERD.png">
 
 ## Wireframes
 
-Wireframes comming soon...
+<img src="./static/images/WF-1">
+<img src="./static/images/WF-2">
+<img src="./static/images/WF-3">
+<img src="./static/images/WF-4">
 
 ## Technologies Used
 HTML
@@ -28,5 +31,5 @@ LucidChart (for ERD)
 LibreOffice Draw (for initial wireframes)
 
 ## Where to find the app?
-Link will be inserted here...
+Deployment coming soon...
 
