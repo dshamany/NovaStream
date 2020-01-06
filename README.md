@@ -11,14 +11,14 @@ To allow users to create posts and share them with the world. We also made sourc
 
 ## ERD
 
-<img src="./static/images/ERD.png">
+<img src="https://imgur.com/download/KswyuLj">
 
 ## Wireframes
 
-<img src="./static/images/WF-1">
-<img src="./static/images/WF-2">
-<img src="./static/images/WF-3">
-<img src="./static/images/WF-4">
+<img src="https://imgur.com/download/tPmQCjT">
+<img src="https://imgur.com/download/f21X4q4">
+<img src="https://imgur.com/download/wAFJm9a">
+<img src="https://imgur.com/download/D9LnwtF">
 
 ## Technologies Used
 HTML
