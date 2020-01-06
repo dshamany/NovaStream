@@ -34,7 +34,8 @@ def signup(request):
 
 
 def home_index(request):
-    return render(request, 'home.html')
+    posts = Post.objects.all().order_by('-datePublished')[:5]
+    return render(request, 'home.html',{'posts':posts})
 
 def about(request):
     return render(request, 'about.html')

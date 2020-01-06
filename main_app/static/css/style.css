@@ -1,3 +1,11 @@
+body {
+    background-image: url('https://i.imgur.com/6ZJhwmz.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .brand-logo li {
     padding: 0 10px;
 }
@@ -30,9 +38,12 @@ form {
 }
 
 .post-body {
-    max-width: 60%px;
+    height: 100%;
+    min-height: 100vh;
     margin: 0 auto;
     overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0 50px;
 }
 
 .post-title-photo {
@@ -45,6 +56,7 @@ form {
     width: 100%;
     height: 50vh;
     border-radius: 30px 0;
+    border: 1px solid black;
 }
 
 #post_image {
@@ -175,10 +187,48 @@ form ::placeholder {
     overflow-x: auto;
 }
 
-#sponsored {
+.home {
+    margin: 30px;
+}
+
+.swipeView {
+    margin-top: 100px;
     width: 100%;
-    height: 200px;
-    object-fit: fill;
-    background-position: center;
-    background-size: cover;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(10, 100%);
+    will-change: contents;
+    text-align: left;
+    align-content: left;
+    overflow-x: hidden;
+    scroll-snap-coordinate: 0 0;
+    scroll-snap-points-x: repeat(100%);
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid black;
+}
+
+section {
+    height: 30vh;
+    scroll-snap-align: start;
+}
+
+.green-4 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    background-blend-mode: luminosity;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+#btn {
+    width: 100%;
+    height: 100%;
+    color: white;
 }
